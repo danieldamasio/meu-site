@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 30pt;
+    color: aqua;
+    text-shadow: 2px 2px 2px blue;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}

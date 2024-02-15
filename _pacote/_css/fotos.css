@@ -1,0 +1,127 @@
+﻿@charset "UTF-8";
+
+ul#album-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid aqua;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .3s ease-in;
+}
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+ul#album-fotos li span{
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+ul#album-fotos li:hover span{
+    opacity: 1;
+    transition: .4s; 
+}
+ul#album-fotos li#foto01 {
+    background: url('../_meustrabalhos/_eu_arquivo_coana.PNG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto02{
+    background: url('../_meustrabalhos/_conciliacao_coana.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto02:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto03{
+    background: url('../_meustrabalhos/_eu_facape.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto03:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto04{
+    background: url('../_meustrabalhos/_eu_inicio_computacao.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto04:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto05{
+    background: url('../_meustrabalhos/_eu_labrunier.PNG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto05:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto06{
+    background: url('../_meustrabalhos/_eu_moto_coana.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto06:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto07{
+    background: url('../_meustrabalhos/_camarafria.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto07:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto08{
+    background: url('../_meustrabalhos/_estoque.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto08:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto09{
+    background: url('../_meustrabalhos/_uvas.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album-fotos li#foto09:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+

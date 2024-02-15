@@ -1,0 +1,248 @@
+﻿
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("_pacote/_fonts/bubblegum-sans-regular.otf");
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* Formatando Interface*/
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+h1 {
+    font-family: FonteLogo;
+    font-size: 30pt;
+    color: rgb(0, 81, 255);
+    text-shadow: 2px 2px 2px rgb(147, 147, 148);
+    padding: 0px;
+    margin-bottom: 0px
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a{
+    color: royalblue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 950px;
+    top: 70px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 230px;
+    background: url("_pacote/_imagens/_cursos.jpg")no-repeat 0px 90px;
+}
+header#cabecalho h2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 20pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+/*Formatação de imagens com Legendas*/ 
+figure.foto-legenda{
+    position: relative;
+    border: 5px solid aqua;
+    box-shadow: 1px 1px 5px white;
+    width: 400px;
+
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    position: absolute;
+    top: 0px;
+    color: white;
+    background-color: rgba(0,0,0,.4);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity:1;
+}
+/*Formatação do Menu*/
+
+nav#menu{
+   display: block;
+}
+nav#menu ul {
+   list-style: none;
+   text-transform: uppercase;
+   position: absolute; 
+   top: -20px;
+   left: 630px;
+}
+    
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+nav#menu a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+nav#menu h1{
+    display: none;
+
+}
+    
+/* Dividindo em blocos a Interface*/
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+article#noticia-principal h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+   
+}
+
+header#cabecalho-artigo h1{
+    font-family: FonteLogo, sans-serif;
+    font-size: 20pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    margin: 0px;
+    background-color: #ffffff;
+    color: lightgray;
+}
+header#cabecalho-artigo h3{
+    font-size: 13pt;
+    color: #606060;   
+}
+.direita {
+    text-align: right;
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+    
+aside#lateral h1{
+    font-family: FonteLogo, sans-serif;
+    font-size: 20pt;
+    margin-top: 0px;
+}
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 15pt;
+    color: white;
+    padding-left: 5px;
+}
+footer#rodape{
+    border-top: 1px solid #606060;
+    clear: both;
+}
+footer#rodape p{
+    text-align: center;  
+}
+
+/*Formatacao de tabelas e em suas classes*/
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+table#tabelaspec td.ce{
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    text-align: right;
+    font-weight: bolder;
+}
+table#tabelaspec td.cd{
+    background-color: lightgray;
+    color: white;
+    text-align: left;
+}
+table#tabelaspec caption{
+    font-size: 15pt;
+    color: black;
+    font-weight: bolder;
+}
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+
+
+
+
+
